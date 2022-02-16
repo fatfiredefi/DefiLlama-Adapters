@@ -1,4 +1,4 @@
-<<<<<<< HEAD:projects/thedon/index.js
+<<<<<<< HEAD:projects/thedonfinance/index.js
 const abi = require("../helper/abis/masterchef.json")
 const { transformFantomAddress } = require("../helper/portedTokens");
 const { addFundsInMasterChef } = require("../helper/masterchef");
