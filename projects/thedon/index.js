@@ -1,4 +1,4 @@
-<<<<<<< HEAD:projects/fatfirefinance/index.js
+<<<<<<< HEAD:projects/thedonfinance/index.js
 const abi = require("../helper/abis/masterchef.json")
 const { transformFantomAddress } = require("../helper/portedTokens");
 const { addFundsInMasterChef } = require("../helper/masterchef");
@@ -23,7 +23,7 @@ module.exports = {
   fantom: {
       tvl,
       staking: stakingPricedLP(chef, thedon, "fantom", "0x7b4dcd189e215465f74e80449701fe027ec41827", "wrapped-fantom"),
-      pool2: pool2Exports(chef, [fatfireFtmLP, fatfireUsdcLP], "fantom"),
+      pool2: pool2Exports(chef, [thedonFtmLP, thedonUsdcLP], "fantom"),
   },
   
 } 
